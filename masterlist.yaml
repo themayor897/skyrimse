@@ -29,6 +29,8 @@ common:
         text: 'Löschen. Bereits in %1% enthalten.'
       - lang: es
         text: 'Borrar. Esta incluido en %1%.'
+      - lang: fi
+        text: 'Poista. %1% sisältää jo tämän.'
       - lang: ja
         text: '削除してください。既に%1%に含まれています。'
       - lang: ko
@@ -83,6 +85,8 @@ common:
         text: 'It is recommended that you read this mod''s [Compatibility Notes](%1%).'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die [Kompatibilitäts-Notizen](%1%) dieses Mods lesen.'
+      - lang: fi
+        text: 'On suotavaa lukea modin tiedot [yhteensopivuudesta](%1%)'
       - lang: ja
         text: '[互換性に関する注意事項](%1%)を読みましょう。'
       - lang: ko
@@ -107,6 +111,8 @@ common:
         text: 'Diese Datei ist korrupt und sollte nicht benutzt werden.'
       - lang: es
         text: 'Este archivo puede corromper tu juego y no debería ser utilizado.'
+      - lang: fi
+        text: 'Tiedosto on vaurioitunut, eikä sitä tule käyttää.'
       - lang: ja
         text: 'このファイルは壊れています。使用しないでください。'
       - lang: ko
@@ -153,6 +159,8 @@ common:
         text: 'ITM-Einträge in diesem Plugin sollten nicht gesäubert werden, sie sind absichtlich enthalten und werden benötigt, damit die Mod richtig funktioniert. Gelöschte Einträge wiederherzustellen ist in Ordnung, alles andere aber nicht.'
       - lang: es
         text: 'No limpiar las referencias ITM (iguales al master), ya que son intencionales y necesarias para que el Mod funcione. Sí es seguro restaurar las UDR (referencias borradas), pero no haga más que eso.'
+      - lang: fi
+        text: 'Älä puhdista ITM-tietueita. Modin tarkoituksen mukainen toiminta vaatii niiden olemassaolon. Tietueiden palauttaminen on turvallista, mutta älä tee mitään muuta.'
       - lang: ja
         text: 'IMTレコードはクリーンしないでください。これらは意図的に残されたデータであり、Modを機能させるために必要です。削除の取り消しは安全に行えますが、それ以外のことは行わないでください。'
       - lang: ko
@@ -177,6 +185,8 @@ common:
         text: '%1% is included with this mod.'
       - lang: de
         text: '%1% ist in dieser Mod enthalten.'
+      - lang: fi
+        text: '%1% on tässä modissa.'
       - lang: ja
         text: '%1%はこのmodに含まれています。'
       - lang: ko
@@ -373,6 +383,8 @@ common:
         text: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A compatibility patch is provided on this plugin''s mod page.'
       - lang: de
         text: 'Sie scheinen **%1%** zu nutzen, aber Sie haben keinen Kompatibilitätspatch für diese Mod aktiviert. Ein Kompatibilitätspatch wird auf dieser Plugins Mod-Seite zur Verfügung gestellt.'
+      - lang: fi
+        text: '**%1%** on käytössä, mutta saatavilla oleva yhteensopivuusliitännäinen ei ole käytössä. Löydät sen liitännäisen //TODO.'
       - lang: ja
         text: '**%1%**を使用しているようですが、このmodの互換性パッチが有効になっていません。互換性パッチは、このプラグインのmodページにあります。.'
       - lang: ko
@@ -395,6 +407,8 @@ common:
         text: 'Update Patch available: %1%'
       - lang: de
         text: 'Update Patch verfügbar: %1%'
+      - lang: fi
+        text: 'Päivitys saatavilla: %1%'
       - lang: ja
         text: 'パッチの更新ができます: %1%'
       - lang: ko
@@ -500,6 +514,8 @@ common:
         text: '%1% is not fully compatible with this mod. %2%'
       - lang: de
         text: '%1% ist nicht voll kompatibel mit dieser Mod. %2%'
+      - lang: fi
+        text: '%1% ei ole täysin yhteensopiva tämän modin kanssa. %2%'
       - lang: ja
         text: '%1%は%2%と完全な互換性がありません。'
       - lang: ko
@@ -522,6 +538,8 @@ common:
         text: 'Plugin''s Masters require sorting.'
       - lang: de
         text: 'Die Plugin Master müssen sortiert werden.'
+      - lang: fi
+        text: 'Liitännäisen isännät vaativat uudelleenjärjestämistä.'
       - lang: ja
         text: 'このプラグインのマスターはソートが必要です。'
       - lang: ko
@@ -566,6 +584,8 @@ common:
         text: 'Nutzen Sie nur einen %1%.'
       - lang: es
         text: 'Utilizar solo un %1%.'
+      - lang: fi
+        text: 'Käytä vain yhtä: %1%'
       - lang: ja
         text: '%1%は一つだけ使用してください。'
       - lang: ko
@@ -718,6 +738,8 @@ common:
         text: 'Dette plugin indeholder ukontrollerede redigeringer udover ITM- og UDR-poster og slettede navmesher og kan behøve yderligere manuel oprydning for ikke at forstyrre andre mods. %1%'
       - lang: de
         text: 'Dieses Plugin enthält wilde Modifikationen weit über ITM-, und UDR Einträge und entfernte Navmeshes hinaus und benötigt vermutlich mehr manuelle Säuberung um andere Mods nicht zu beeinträchtigen. %1%'
+      - lang: fi
+        text: 'Tämä liitännäinen sisältää villejä muokkauksia ITM- ja UDR-tietueiden sekä poistettujen navmeshien lisäksi. Manuaalinen lisäpuhdistaminen voi olla tarpeen yhteensopivuuden takaamiseksi. %1%'
       - lang: ja
         text: 'このプラグインにはITMおよびUDRレコード以外の誤った編集(Wild Edit)が含まれており、navmeshが削除されています。他のmodと干渉しないように、追加の手動クリーニングが必要になる場合があります。%1%'
       - lang: pl
